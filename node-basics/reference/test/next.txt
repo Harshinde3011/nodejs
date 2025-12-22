@@ -1,0 +1,2 @@
+file is created using fsPromise
+this new line is being inserted by using fsPromise

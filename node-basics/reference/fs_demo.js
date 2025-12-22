@@ -1,4 +1,4 @@
-import fs, { writeFile } from "fs"
+import fsPromise from 'fs/promises';
 import path from "path"
 import { fileURLToPath } from "url";
 
@@ -41,3 +41,29 @@ fs.rename(
         console.log("file renamed...");
     }
 )
+
+// using fsPromise
+const writeInFile = async () => {
+  try {
+    const filePath = path.join(_dirname, 'test', 'next.txt');
+
+    await fsPromise.writeFile(
+      filePath,
+      'file is created using fsPromise\n'
+    );
+
+    await fsPromise.appendFile(
+      filePath,
+      'this new line is being inserted by using fsPromise\n'
+    );
+
+    const data = await fsPromise.readFile(filePath, 'utf8');
+
+    console.log('data:', data);
+
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+writeInFile();
