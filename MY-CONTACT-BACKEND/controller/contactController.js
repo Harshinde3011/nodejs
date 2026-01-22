@@ -26,17 +26,26 @@ class ContactController {
                 throw new ApiError("Please provide valid data", 400);
             }
 
-            const contact = await Contact.create({
-                name,
-                email,
-                mobileNo
-            });
+            const isDataExists = await Contact.findOne({
+                mobileNo: mobileNo
+            })
 
-            res.status(201).json({
+            if (isDataExists) {
+                throw new ApiError("Contact already exists: ", 401)
+            } else {
+                const contact = await Contact.create({
+                    name,
+                    email,
+                    mobileNo,
+                    userId: req.user._id
+                });
+
+                res.status(201).json({
                 success: true,
                 message: "Contact created successfully",
                 data: contact
-            });
+                });
+            }
 
         } catch (error) {
             next(error);

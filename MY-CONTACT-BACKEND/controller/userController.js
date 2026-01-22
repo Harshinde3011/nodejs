@@ -68,13 +68,13 @@ class UserController {
                     email: isUserExists.email,
                 }
 
-                const accesToken = JWT.sign(user, process.env.ACCESS_TOKEN_KEY, { expiresIn: "1m" });
+                const accesToken = JWT.sign(user, process.env.ACCESS_TOKEN_KEY, { expiresIn: "15m" });
 
                 res.status(200).json({
                     accesToken
                 })
             }else{
-                throw new ApiError("Invalid credentails provided",400)
+                throw new ApiError("Invalid credentails provided",400) 
             }
 
         } catch (error) {
@@ -83,6 +83,18 @@ class UserController {
         }
     }
 
+    async currentUser(req, res, next) {
+        try {
+            const user = req.user  // comming from verifyJWT middleware
+
+            res.status(201).json({
+                data: user
+            })
+        } catch (error) {
+            console.log("Error in UserController.registration");
+            next(error)
+        }
+    }
 }
 
 export default new UserController();
