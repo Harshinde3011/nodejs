@@ -33,3 +33,6 @@ process.on('uncaughtException', (err) => {
   console.error('Uncaught Exception:', err);
   server.close(() => process.exit(1));
 });
+```
+
+##DOCKER COMMANDS
