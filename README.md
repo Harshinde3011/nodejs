@@ -37,5 +37,10 @@ process.on('uncaughtException', (err) => {
 
 ## DOCKER COMMANDS
 
-- docker build . -t <name of your image>
+- docker build -t my-contact-backend:latest .
 - docker images
+- docker run --env-file .env -d -p 5000:5000 --name my-contact-app my-contact-backend:latest
+- docker ps
+- docker logs -f my-contact-app
+- docker tag my-contact-backend:latest <your-dockerhub-username>/my-contact-backend:latest
+- docker push <your-dockerhub-username>/my-contact-backend:latest
