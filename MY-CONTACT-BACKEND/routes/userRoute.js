@@ -10,4 +10,6 @@ router.post("/login", UserController.login);
 
 router.get("/current", verifyToken, UserController.currentUser);
 
+router.post("/upload-file", verifyToken, UserController.uploadMedia);
+
 export default router;

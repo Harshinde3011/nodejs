@@ -2,6 +2,11 @@ import User from "../models/userModel.js";
 import bcrypt from "bcrypt"
 import ApiError from "../utils/ApiError.js";
 import JWT from "jsonwebtoken";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+import { S3Client } from "@aws-sdk/client-s3";
+import { Upload } from "@aws-sdk/lib-storage";
 
 class UserController {
 
@@ -95,6 +100,60 @@ class UserController {
             next(error)
         }
     }
+
+    // used stream to upload file, and backpress handled, you can use multer which will automatically handle backPressure
+    async uploadMedia(req, res, next) {
+        try {
+            const _fileName = fileURLToPath(import.meta.url);
+            const _dirname = path.dirname(_fileName);
+            const filename = req.headers["x-file-name"] || "uploaded.bin";
+    
+            const filePath = path.join(_dirname, filename);
+    
+            const writeStream = fs.createWriteStream(filePath);
+    
+            req.pipe(writeStream);
+    
+            writeStream.on("finish", () => {
+                res.json({ message: "File uploaded successfully" });
+            })
+    
+            writeStream.on("error", () => {
+                res.status(500).json({ error: "Upload failed" });
+            });
+        } catch (error) {
+            console.log("Error in UserController.uploadMedia");
+            next(error)
+        }
+    }
+
+    async uploadOnS3(req, res) {
+        try {
+            const s3 = new S3Client({
+                region: "ap-south-1",
+                credentials: {
+                    accessKeyId: process.env.AWS_ACCESS_KEY,
+                    secretAccessKey: process.env.AWS_SECRET_KEY
+                }
+            });
+            const upload = new Upload({
+                client: s3,
+                params: {
+                    Bucket: "my-bucket-name",
+                    Key: `uploads/${Date.now()}.bin`,
+                    Body: req // 👈 stream directly from request
+                }
+            });
+
+            await upload.done();
+
+            res.json({ message: "File uploaded to S3 successfully" });
+        } catch (err) {
+            console.error(err);
+            res.status(500).json({ error: "Upload failed" });
+        }
+    };
+
 }
 
 export default new UserController();

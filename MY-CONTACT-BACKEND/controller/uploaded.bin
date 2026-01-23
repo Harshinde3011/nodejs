@@ -1,0 +1,656 @@
+----------------------------329622016428106591980254
+Content-Disposition: form-data; name="demoFile"; filename="BIRTH-DAY-USERS.json"
+Content-Type: application/json
+
+[{
+  "_id": {
+    "$oid": "6954d4d8f963f9d8901b64e0"
+  },
+  "firstName": "GOWRISHANKAR",
+  "lastName": "AK",
+  "mobileNo": "6369061499",
+  "stateId": {
+    "$oid": "6349179836899f5759bc4ee8"
+  },
+  "countryId": {
+    "$oid": "625fd32730b905c976c61d55"
+  },
+  "baseCourseId": {
+    "$oid": "6433acdf6f88433b504b4144"
+  },
+  "examTypeId": {
+    "$oid": "6433b5b36f88433b504b4258"
+  },
+  "source": "WEBSITE REGISTRATION",
+  "actualOrigin": "Youtube",
+  "isMobileVerified": true,
+  "isClassRoom": false,
+  "isClassRoomPayment": false,
+  "deviceType": "web",
+  "email": "www.sincejeeva004@gmail.com",
+  "emailVerified": true,
+  "whatsAppVerified": false,
+  "language": "en",
+  "status": 1,
+  "hasActivePlan": false,
+  "profilePicture": "",
+  "dob": "2004-01-23",
+  "qualification": {
+    "$oid": "68a31e64f66b05f0b0c8ff3b"
+  },
+  "qualificationYear": 2,
+  "type": 3,
+  "gender": "MALE",
+  "isKycCompleted": false,
+  "createdAt": {
+    "$date": "2025-12-31T07:46:32.444Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T12:31:14.479Z"
+  },
+  "__v": 0,
+  "isWhatsApp": true,
+  "whatsAppStatus": {
+    "time": {
+      "$date": "2025-12-31T13:16:36.205Z"
+    }
+  },
+  "referralCode": "G23ABZZ3Y4",
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OTU0ZDRkOGY5NjNmOWQ4OTAxYjY0ZTAiLCJtb2JpbGVObyI6IjYzNjkwNjE0OTkiLCJpYXQiOjE3NjcxNjcxOTgsImV4cCI6MTc2NzE5NTk5OH0.amvt4m4ULSMZ_Xy6zhRJqb7hw0coboy9acdhKvcHTkY",
+  "whatsAppShootStatus": "OptedIn",
+  "dobDayMonth": "23-01",
+  "examSectionId": {
+    "$oid": "67b5da6098a9be509f3aff14"
+  },
+  "examSubSectionId": {
+    "$oid": "6964bed93dd1967fd4524412"
+  }
+},
+{
+  "_id": {
+    "$oid": "69537b5312c090d11240aecb"
+  },
+  "firstName": "ASWATHY",
+  "lastName": "NG",
+  "mobileNo": "7510143086",
+  "stateId": {
+    "$oid": "62474ccb33b47e508fc9f0eb"
+  },
+  "countryId": {
+    "$oid": "625fd32730b905c976c61d55"
+  },
+  "baseCourseId": {
+    "$oid": "667d48ed6c029e9dfdf2812d"
+  },
+  "examTypeId": {
+    "$oid": "667d488a0f37a1caa001c636"
+  },
+  "source": "WEBSITE REGISTRATION",
+  "actualOrigin": "Youtube",
+  "isMobileVerified": true,
+  "isClassRoom": false,
+  "isClassRoomPayment": false,
+  "deviceType": "web",
+  "email": "aswathyganesan1617@gmail.com",
+  "emailVerified": true,
+  "whatsAppVerified": false,
+  "language": "en",
+  "status": 1,
+  "hasActivePlan": false,
+  "profilePicture": "user_1767079391732.jpg",
+  "dob": "1995-01-23",
+  "qualification": {
+    "$oid": "68a31e64f66b05f0b0c8ff3b"
+  },
+  "qualificationYear": 3,
+  "type": 3,
+  "gender": "FEMALE",
+  "isKycCompleted": false,
+  "createdAt": {
+    "$date": "2025-12-30T07:12:19.147Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T06:32:03.779Z"
+  },
+  "__v": 0,
+  "isWhatsApp": true,
+  "whatsAppStatus": {
+    "time": {
+      "$date": "2025-12-30T12:42:19.597Z"
+    }
+  },
+  "referralCode": "A15ILWQ9JR",
+  "accessToken": "",
+  "whatsAppShootStatus": "OptedIn",
+  "dobDayMonth": "23-01",
+  "examSectionId": {
+    "$oid": "67b5da6098a9be509f3aff14"
+  },
+  "examSubSectionId": {
+    "$oid": "6964bed93dd1967fd4524412"
+  }
+},
+{
+  "_id": {
+    "$oid": "69510e34903ebd8a123f6f3d"
+  },
+  "firstName": "PARVATHY",
+  "lastName": "P V",
+  "mobileNo": "7510941985",
+  "stateId": {
+    "$oid": "62474ccb33b47e508fc9f0eb"
+  },
+  "countryId": {
+    "$oid": "625fd32730b905c976c61d55"
+  },
+  "baseCourseId": {
+    "$oid": "6511508662e489d03d1c6eca"
+  },
+  "examTypeId": {
+    "$oid": "6433bad86f88433b504b4371"
+  },
+  "source": "APP REGISTRATION",
+  "actualOrigin": "Youtube",
+  "isMobileVerified": true,
+  "isClassRoom": false,
+  "isClassRoomPayment": false,
+  "deviceType": "ios",
+  "deviceId": "43C99859-4AA7-4920-86ED-FC3AA0C7CF28",
+  "deviceToken": "dretT_8VoE9ft93dkQ1fv6:APA91bGFtE4B9gV4D8hT4wdxQDwg2ZkgumIHJ-F91f01XWTVEL7HKp-_nLe27YCOrZn-I1bYvaBGSyizgyd70QlCjObPyTOh5cmG7lxzrjhRiWbIfOGlmpo",
+  "email": "parvathypv1234@gmail.com",
+  "emailVerified": false,
+  "whatsAppVerified": false,
+  "language": "en",
+  "status": 1,
+  "hasActivePlan": false,
+  "profilePicture": "",
+  "dob": "2006-01-23",
+  "qualification": {
+    "$oid": "68a31e4df66b05f0b0c8ff3a"
+  },
+  "qualificationYear": 3,
+  "type": 13,
+  "gender": "FEMALE",
+  "isKycCompleted": false,
+  "createdAt": {
+    "$date": "2025-12-28T11:02:12.641Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T06:32:03.779Z"
+  },
+  "__v": 0,
+  "isWhatsApp": true,
+  "whatsAppStatus": {
+    "time": {
+      "$date": "2025-12-28T16:32:13.380Z"
+    }
+  },
+  "referralCode": "P62R7V72NF",
+  "accessToken": "",
+  "whatsAppShootStatus": "OptedIn",
+  "dobDayMonth": "23-01",
+  "examSectionId": {
+    "$oid": "67b5c89a3639e10bc68c041d"
+  },
+  "examSubSectionId": {
+    "$oid": "695f3e93938b1a940b13faaa"
+  }
+},
+{
+  "_id": {
+    "$oid": "694bf52dadabe99d23acac51"
+  },
+  "firstName": "JAYA",
+  "lastName": "GUCHIYA",
+  "mobileNo": "6367966593",
+  "stateId": {
+    "$oid": "62474ccb33b47e508fc9f0f7"
+  },
+  "countryId": {
+    "$oid": "625fd32730b905c976c61d55"
+  },
+  "baseCourseId": {
+    "$oid": "6433acdf6f88433b504b4144"
+  },
+  "examTypeId": {
+    "$oid": "6433b5b36f88433b504b4258"
+  },
+  "source": "APP REGISTRATION",
+  "actualOrigin": "Youtube",
+  "isMobileVerified": true,
+  "isClassRoom": false,
+  "isClassRoomPayment": false,
+  "deviceType": "android",
+  "deviceId": "b874e7d50871e90d",
+  "deviceToken": "cCiVZLSCSOC44XZ40jNKwj:APA91bHnusWJbdJY1G-PN3LvpcDuim0jbsLRFJnl5HTrKQFMe8K0hnfCHvANdzjRHEc-9OXdGXxrAO5uzXQqFGvr-lY3o8DsnEZBDkJpDg9gZ4QMbhraagU",
+  "email": "jayaguchiya201@gmail.com",
+  "emailVerified": false,
+  "whatsAppVerified": false,
+  "language": "en",
+  "status": 1,
+  "hasActivePlan": false,
+  "profilePicture": "",
+  "dob": "2004-01-23",
+  "qualification": {
+    "$oid": "68a31e64f66b05f0b0c8ff3b"
+  },
+  "qualificationYear": 2,
+  "type": 13,
+  "gender": "FEMALE",
+  "isKycCompleted": false,
+  "createdAt": {
+    "$date": "2025-12-24T14:14:05.519Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T06:32:03.779Z"
+  },
+  "__v": 0,
+  "isWhatsApp": true,
+  "whatsAppStatus": {
+    "time": {
+      "$date": "2025-12-24T19:44:06.036Z"
+    }
+  },
+  "referralCode": "J71S1G9PT1",
+  "accessToken": "",
+  "whatsAppShootStatus": "OptedIn",
+  "dobDayMonth": "23-01",
+  "examSectionId": {
+    "$oid": "67b5da6098a9be509f3aff14"
+  },
+  "examSubSectionId": {
+    "$oid": "6964bed93dd1967fd4524412"
+  }
+},
+{
+  "_id": {
+    "$oid": "694b95190d9129977ab09713"
+  },
+  "firstName": "SWATI",
+  "lastName": "MISHRA",
+  "mobileNo": "8602862206",
+  "countryId": {
+    "$oid": "625fd32730b905c976c61d55"
+  },
+  "source": "HP ENQUIRY",
+  "isMobileVerified": true,
+  "isClassRoom": false,
+  "isClassRoomPayment": false,
+  "emailVerified": false,
+  "whatsAppVerified": true,
+  "language": "en",
+  "status": 1,
+  "hasActivePlan": false,
+  "profilePicture": "user_1766562575811.jpg",
+  "reVisitCount": 1,
+  "type": 7,
+  "isKycCompleted": false,
+  "createdAt": {
+    "$date": "2025-12-24T07:24:09.366Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T05:12:21.684Z"
+  },
+  "__v": 0,
+  "isWhatsApp": true,
+  "whatsAppStatus": {
+    "time": {
+      "$date": "2025-12-24T12:54:11.658Z"
+    }
+  },
+  "accessToken": "",
+  "deviceType": "web",
+  "baseCourseId": {
+    "$oid": "650f59c768a0f548fbcc248d"
+  },
+  "dob": "2005-01-23",
+  "email": "mishraswati65807@gmail.com",
+  "examTypeId": {
+    "$oid": "6433bad86f88433b504b4371"
+  },
+  "gender": "FEMALE",
+  "referralCode": "N79N1R5OPA",
+  "stateId": {
+    "$oid": "62474ccb33b47e508fc9f0ee"
+  },
+  "deviceId": "27c660a5baf28cf4",
+  "whatsAppShootStatus": "OptedOut",
+  "dobDayMonth": "23-01",
+  "examSectionId": {
+    "$oid": "67b5c89a3639e10bc68c041d"
+  },
+  "examSubSectionId": {
+    "$oid": "695f3e93938b1a940b13faaa"
+  }
+},
+{
+  "_id": {
+    "$oid": "694a43d5afd8c614f063e424"
+  },
+  "firstName": "AYUSH",
+  "lastName": "BISWAKARMA",
+  "mobileNo": "7852905959",
+  "stateId": {
+    "$oid": "62474ccb33b47e508fc9f0f4"
+  },
+  "countryId": {
+    "$oid": "625fd32730b905c976c61d55"
+  },
+  "baseCourseId": {
+    "$oid": "651192f545770b3220e784bf"
+  },
+  "examTypeId": {
+    "$oid": "6433b92c6f88433b504b4340"
+  },
+  "source": "WEBSITE REGISTRATION",
+  "actualOrigin": "Whatsapp",
+  "isMobileVerified": true,
+  "isClassRoom": false,
+  "isClassRoomPayment": false,
+  "deviceType": "web",
+  "email": "ayusum2119@gmail.com",
+  "emailVerified": false,
+  "whatsAppVerified": false,
+  "language": "en",
+  "status": 1,
+  "hasActivePlan": false,
+  "profilePicture": "user_1766475568090.jpg",
+  "dob": "2004-01-23",
+  "qualification": {
+    "$oid": "68a31e76f66b05f0b0c8ff3c"
+  },
+  "qualificationYear": 4,
+  "type": 3,
+  "gender": "MALE",
+  "isKycCompleted": false,
+  "createdAt": {
+    "$date": "2025-12-23T07:25:09.234Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T06:32:03.779Z"
+  },
+  "__v": 0,
+  "isWhatsApp": true,
+  "whatsAppStatus": {
+    "time": {
+      "$date": "2025-12-23T12:55:10.228Z"
+    }
+  },
+  "referralCode": "A50LO9EWS2",
+  "accessToken": "",
+  "whatsAppShootStatus": "OptedIn",
+  "dobDayMonth": "23-01",
+  "examSectionId": {
+    "$oid": "67b5c89a3639e10bc68c041d"
+  },
+  "examSubSectionId": {
+    "$oid": "695f3e93938b1a940b13faaa"
+  }
+},
+{
+  "_id": {
+    "$oid": "694a403cc49d090fd9fbe06d"
+  },
+  "firstName": "YOGITA",
+  "lastName": "SAINI",
+  "mobileNo": "8619668893",
+  "stateId": {
+    "$oid": "62474ccb33b47e508fc9f0f7"
+  },
+  "countryId": {
+    "$oid": "625fd32730b905c976c61d55"
+  },
+  "baseCourseId": {
+    "$oid": "6433acdf6f88433b504b4144"
+  },
+  "examTypeId": {
+    "$oid": "6433b5b36f88433b504b4258"
+  },
+  "source": "APP REGISTRATION",
+  "actualOrigin": "Friend",
+  "isMobileVerified": true,
+  "isClassRoom": false,
+  "isClassRoomPayment": false,
+  "deviceType": "android",
+  "deviceId": "69ec9425c926a818",
+  "deviceToken": "eW5BAS1ZTXaSYs4yIMZMhL:APA91bHKyfeCIly86uh5zecOvhRAcwUL9PhQNUCwyZSesAbf50pff-sBPmoMZ4Agh3VAgAbe_FDWRufHLE4u7jyhfsewyowSeSeMQPAAJumXrTPt1qWTVMY",
+  "email": "yogitasaini8619@gmail.com",
+  "emailVerified": false,
+  "whatsAppVerified": false,
+  "language": "en",
+  "status": 1,
+  "hasActivePlan": false,
+  "profilePicture": "",
+  "dob": "1999-01-23",
+  "qualification": {
+    "$oid": "68a31e64f66b05f0b0c8ff3b"
+  },
+  "qualificationYear": 3,
+  "type": 13,
+  "gender": "FEMALE",
+  "isKycCompleted": false,
+  "createdAt": {
+    "$date": "2025-12-23T07:09:48.707Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T06:32:03.779Z"
+  },
+  "__v": 0,
+  "isWhatsApp": true,
+  "whatsAppStatus": {
+    "time": {
+      "$date": "2025-12-23T12:39:49.402Z"
+    }
+  },
+  "referralCode": "Y55XMF1N1O",
+  "accessToken": "",
+  "whatsAppShootStatus": "OptedIn",
+  "dobDayMonth": "23-01",
+  "examSectionId": {
+    "$oid": "67b5da6098a9be509f3aff14"
+  },
+  "examSubSectionId": {
+    "$oid": "6964bed93dd1967fd4524412"
+  }
+},
+{
+  "_id": {
+    "$oid": "694997a0afd8c614f081390a"
+  },
+  "firstName": "KARTHIKA",
+  "lastName": "S",
+  "mobileNo": "7902692059",
+  "stateId": {
+    "$oid": "62474ccb33b47e508fc9f0eb"
+  },
+  "countryId": {
+    "$oid": "625fd32730b905c976c61d55"
+  },
+  "baseCourseId": {
+    "$oid": "6433ae556f88433b504b415a"
+  },
+  "examTypeId": {
+    "$oid": "6433b4a76f88433b504b4248"
+  },
+  "source": "WEBSITE REGISTRATION",
+  "actualOrigin": "Teachers",
+  "isMobileVerified": true,
+  "isClassRoom": false,
+  "isClassRoomPayment": false,
+  "deviceType": "web",
+  "email": "karthikasunil50@gmail.com",
+  "emailVerified": false,
+  "whatsAppVerified": false,
+  "language": "en",
+  "status": 1,
+  "hasActivePlan": false,
+  "profilePicture": "",
+  "dob": "2002-01-23",
+  "qualification": {
+    "$oid": "68a31e64f66b05f0b0c8ff3b"
+  },
+  "qualificationYear": 2,
+  "type": 3,
+  "gender": "FEMALE",
+  "isKycCompleted": false,
+  "createdAt": {
+    "$date": "2025-12-22T19:10:24.235Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T06:32:03.779Z"
+  },
+  "__v": 0,
+  "isWhatsApp": true,
+  "whatsAppStatus": {
+    "time": {
+      "$date": "2025-12-23T00:40:25.206Z"
+    }
+  },
+  "referralCode": "K37XXQ2YYA",
+  "accessToken": "",
+  "whatsAppShootStatus": "OptedIn",
+  "isPhd": true,
+  "isUgc": false,
+  "dobDayMonth": "23-01",
+  "examSectionId": {
+    "$oid": "67b5da6098a9be509f3aff14"
+  },
+  "examSubSectionId": {
+    "$oid": "6964bda0b37b8aef817ae3de"
+  }
+},
+{
+  "_id": {
+    "$oid": "6948c7f4785db5dd4a4cd24c"
+  },
+  "firstName": "NIRANJAN",
+  "lastName": "SAHOO",
+  "mobileNo": "8984017659",
+  "stateId": {
+    "$oid": "62474ccb33b47e508fc9f0f4"
+  },
+  "countryId": {
+    "$oid": "625fd32730b905c976c61d55"
+  },
+  "baseCourseId": {
+    "$oid": "65119460f8239b25dccea0c9"
+  },
+  "examTypeId": {
+    "$oid": "6433b92c6f88433b504b4340"
+  },
+  "source": "WEBSITE REGISTRATION",
+  "actualOrigin": "Friend",
+  "isMobileVerified": true,
+  "isClassRoom": false,
+  "isClassRoomPayment": false,
+  "deviceType": "web",
+  "email": "ns3119055@gmail.com",
+  "emailVerified": false,
+  "whatsAppVerified": false,
+  "language": "en",
+  "status": 1,
+  "hasActivePlan": false,
+  "profilePicture": "",
+  "dob": "2006-01-23",
+  "qualification": {
+    "$oid": "68a31e4df66b05f0b0c8ff3a"
+  },
+  "qualificationYear": 3,
+  "type": 3,
+  "gender": "MALE",
+  "isKycCompleted": false,
+  "createdAt": {
+    "$date": "2025-12-22T04:24:20.116Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T06:32:03.779Z"
+  },
+  "__v": 0,
+  "isWhatsApp": true,
+  "whatsAppStatus": {
+    "time": {
+      "$date": "2025-12-22T09:54:20.606Z"
+    }
+  },
+  "referralCode": "N13H8DEY68",
+  "accessToken": "",
+  "whatsAppShootStatus": "OptedIn",
+  "isPhd": false,
+  "isUgc": false,
+  "dobDayMonth": "23-01",
+  "examSectionId": {
+    "$oid": "67b5c89a3639e10bc68c041d"
+  },
+  "examSubSectionId": {
+    "$oid": "6964be693dd1967fd452440f"
+  }
+},
+{
+  "_id": {
+    "$oid": "6946d66075eeed4fae5d2716"
+  },
+  "firstName": "ABHAY",
+  "lastName": "SHUKLA",
+  "mobileNo": "9634528698",
+  "stateId": {
+    "$oid": "6349179836899f5759bc4ed2"
+  },
+  "countryId": {
+    "$oid": "625fd32730b905c976c61d55"
+  },
+  "baseCourseId": {
+    "$oid": "6433ae116f88433b504b4151"
+  },
+  "examTypeId": {
+    "$oid": "6433b5b36f88433b504b4258"
+  },
+  "source": "APP REGISTRATION",
+  "actualOrigin": "Other",
+  "isMobileVerified": true,
+  "isClassRoom": false,
+  "isClassRoomPayment": false,
+  "deviceType": "ios",
+  "deviceId": "04C997B7-7218-4CC2-91DD-86814447B474",
+  "deviceToken": "cE95d_eiOk71qt4bDv9Rr-:APA91bH_InY50WV17dXuuxSzhsKo9CLXwaL_NAsb9RUxwdTbGuYAUlgdPfWu7QQS7yiGWXW5MjBylvTCB_wU7JpbBnVOfWLCVr98XE8Hq0b1N8U2gqQbCSE",
+  "email": "shuklaji9634528698@gmail.com",
+  "emailVerified": false,
+  "whatsAppVerified": false,
+  "language": "en",
+  "status": 1,
+  "hasActivePlan": false,
+  "profilePicture": "",
+  "dob": "2005-01-23",
+  "qualification": {
+    "$oid": "68a31e4df66b05f0b0c8ff3a"
+  },
+  "qualificationYear": 3,
+  "type": 13,
+  "gender": "MALE",
+  "isKycCompleted": false,
+  "createdAt": {
+    "$date": "2025-12-20T17:01:20.009Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T06:32:03.779Z"
+  },
+  "__v": 0,
+  "whatsAppStatus": {
+    "time": {
+      "$date": "2025-12-20T22:31:20.869Z"
+    }
+  },
+  "referralCode": "A215558WZ7",
+  "isWhatsApp": true,
+  "accessToken": "",
+  "whatsAppShootStatus": "OptedIn",
+  "isPhd": true,
+  "isUgc": false,
+  "dobDayMonth": "23-01",
+  "examSectionId": {
+    "$oid": "67b5da6098a9be509f3aff14"
+  },
+  "examSubSectionId": {
+    "$oid": "695f3e71938b1a940b13faa8"
+  }
+}]
+----------------------------329622016428106591980254--
