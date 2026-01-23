@@ -35,4 +35,7 @@ process.on('uncaughtException', (err) => {
 });
 ```
 
-##DOCKER COMMANDS
+## DOCKER COMMANDS
+
+- docker build . -t <name of your image>
+- docker images
