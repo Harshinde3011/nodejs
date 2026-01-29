@@ -1,0 +1,5 @@
+Admins have full access to any projects 
+
+Manager can view projects within their departments 
+
+Employees can only view or update projects if they are parts of the project team ot if the projects access level is within their access level
